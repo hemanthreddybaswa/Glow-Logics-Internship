@@ -1,17 +1,17 @@
 
 ---
 
-# 📈 Stock Price Prediction using Machine Learning (Scikit-Learn)
+# Stock Price Prediction using Machine Learning (Scikit-Learn)
 
 This project demonstrates how **Machine Learning** can be used to analyze historical stock market data and predict **buy/sell signals** using classical ML algorithms implemented with **Scikit-Learn**.
 
 The primary goal of this project is to strengthen understanding of the **end-to-end supervised learning workflow**, including data preprocessing, feature engineering, model training, evaluation, and interpretation.
 
-> ⚠️ **Disclaimer:** This project is for educational purposes only and should not be used for real financial trading decisions.
+> 
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 * **Domain:** Financial Data Analysis / Machine Learning
 * **Type:** Supervised Learning (Classification)
@@ -22,7 +22,7 @@ This project predicts whether **buying a stock at a given time is beneficial or 
 
 ---
 
-## 🧩 Machine Learning Workflow
+##  Machine Learning Workflow
 
 1. Data Collection
 2. Data Cleaning & Preprocessing
@@ -32,11 +32,11 @@ This project predicts whether **buying a stock at a given time is beneficial or 
 6. Model Evaluation
 7. Result Interpretation
 
-📌 *(An ML workflow diagram is included in the LinkedIn/GitHub visuals section.)*
+
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 * **Stock:** Tesla (TSLA)
 * **Time Period:** 2010 – 31 December 2017
@@ -50,11 +50,11 @@ This project predicts whether **buying a stock at a given time is beneficial or 
   * Adj Close
   * Volume
 
-📌 Non-trading days (weekends & holidays) are naturally excluded.
+ Non-trading days (weekends & holidays) are naturally excluded.
 
 ---
 
-## 🔧 Feature Engineering
+##  Feature Engineering
 
 To convert raw stock prices into a machine-learning-friendly format, new features were created:
 
@@ -69,7 +69,7 @@ This transforms the problem into a **binary classification task**.
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 EDA was performed to understand:
 
@@ -82,7 +82,7 @@ Visualizations helped identify meaningful patterns and validate feature choices.
 
 ---
 
-## 🤖 Models Used (Scikit-Learn)
+##  Models Used (Scikit-Learn)
 
 The following ML models were trained and evaluated:
 
@@ -94,7 +94,7 @@ Each model was tested using the same train-test split to ensure fair comparison.
 
 ---
 
-## 📐 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 Models were evaluated using:
 
@@ -102,11 +102,11 @@ Models were evaluated using:
 * Confusion Matrix
 * Classification Report
 
-📌 Due to the nature of stock data, accuracy alone is **not sufficient**, and results were interpreted carefully.
+Due to the nature of stock data, accuracy alone is **not sufficient**, and results were interpreted carefully.
 
 ---
 
-## 🏆 Results & Observations
+## Results & Observations
 
 * Classical ML models can capture **short-term market signals**
 * Feature engineering plays a **critical role**
@@ -115,7 +115,7 @@ Models were evaluated using:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Programming Language:** Python
 * **Libraries:**
@@ -129,22 +129,10 @@ Models were evaluated using:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
-📦 Stock-Price-Prediction-ScikitLearn
- ┣ 📜 Stock_Price_Prediction.ipynb
- ┣ 📜 README.md
+Stock-Price-Prediction-ScikitLearn
+|-Stock_Price_Prediction.ipynb
+|-README.md
 ```
-
----
-
-## 🚀 Future Improvements
-
-* Add more technical indicators (RSI, MACD, Moving Averages)
-* Use time-series-specific models
-* Perform cross-validation
-* Compare with Deep Learning models (LSTM, GRU)
-* Integrate real-time stock APIs
-
----
