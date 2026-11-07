@@ -48,6 +48,6 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-Then you can view the site on your local server: http://127.0.0.1:5000/ 
+
 
 
